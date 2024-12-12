@@ -1,0 +1,84 @@
+.toFixed() para fixar quantas casas decimais quiser
+.replace('', '') para trocar um elemento pelo outro
+
+métodos para (Number) somente números
+
+.toLocaleString('pt-br', {style: 'currency', currency: 'BRL'}) formata para formatos monetários, em BRL pode substituir pelas de outros países.
+
+Ordem de precedência dos operadores de JS
+1°
+Operadores aritméticos:
+()
+**
+*, /, %
++, -
+
+Operadores atribuição:
+Incrementos 
+
+n = 2
+
+n++
+n = 2
+n = 3
+n--
+n = 3
+n = 2
+
+++n
+n = 3
+--n
+n = 2
+
+2°
+Operadores relacionais
+>
+<
+>=
+<=
+==
+!=
+	operador de identidade ===
+5 === "5" false
+5 == "5" true
+
+Operadores lógicos
+1° ordem de precedência
+! negação
+	!true -> false
+	!false -> true
+2° ordem de precedência
+&& conjunção "e" lógico
+Tem valor binário
+	true && true -> true
+	true && false -> false
+	false && true -> false
+	false && false -> false
+
+3° ordem de precedência
+|| disjunção "ou" lógico
+Também é operador binário
+
+	true||true -> true
+	true||false -> true
+	false||true -> true
+	false||false -> false
+
+
+Operador ternário
+
+? 
+:
+teste ? true : false
+media >= 7.0 ? "Aprovado" : "Reprovado"
+
+Eu sou home ? true : false
+true
+Eu sou homem ? "Claro!" : "Ai, eu naum"
+"Claro!"
+
+
+
+
+
+
